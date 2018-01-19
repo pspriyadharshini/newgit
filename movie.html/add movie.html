@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title >Add movie</title>
+<meta name="description" content="add movie">
+<meta charset="utf-8">
+<link rel="stylesheet" href="reset.css"/>
+<link rel="stylesheet" href="movie.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300">
+</head>
+<body>
+<header>
+  <img class="logo fleft" src="images/projector-logo.png" alt="logo"/>
+  <ul class="fright">
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Add movie</a></li>
+    </ul>
+  </nav>
+</header>
+<ul class="clearfix"></ul>
+<form class="add_movie_form"action="/sample-action">
+  <h2>Add a movie</h2>
+  <ul>
+    <li>
+      <label for="Movie name">Movie name</label>
+      <input type="text" name="movie-name"/>
+    </li>
+  </ul>
+  <ul>
+  <li>
+    <label for="Release year">Release year</label>
+    <input type="text" name="release year"/>
+  </li>
+</ul>
+  <ul>
+  <li>
+    <div class="divide language_div">
+    <label for="language">language</label>
+    <select name="language">
+      <option value="Tamil">Tamil</option>
+      <option value="English">English</option>
+      <option value="Hindi">Hindi</option>
+    </select>
+  </div>
+  <div class="divide">
+    <label for="rating">rating</label>
+      <select name="rating">
+        <option value"1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </div>
+    </li>
+  </ul>
+  <ul>
+  <li>
+    <label for="url">Thumbnail url</label>
+    <input type="url" name="Thumbnail url"/>
+  </li>
+</ul>
+<ul>
+  <li>
+    <label for="plot">plot</label>
+    <textarea name="plot" rows="5"></textarea>
+  </li>
+</ul>
+<ul>
+  <li>
+    <label for="poster url">poster url</label>
+    <input type="poster url" name="poster url"/>
+  </li>
+</ul>
+<ul>
+  <li>
+    <label for="cast">cast</label>
+    <textarea name="cast" rows="5"></textarea>
+  </li>
+</ul>
+<ul>
+  <li>
+    <button type="submit" value="submit">save</button>
+  </li>
+</ul>
+</body>
+</html>
